@@ -101,6 +101,8 @@ Find and install “Emmet” plugin
 
 
 # for HTML 
+Elements
+You can use elements’ names like div or p to generate HTML tags. Emmet doesn’t have a predefined set of available tag names, you can write any word and transform it into a tag: div → <div></div>, foo → <foo></foo> and so on.
 
 #### Child: >
 
