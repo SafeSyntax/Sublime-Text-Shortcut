@@ -30,7 +30,9 @@ Pick “Install Package” command
 Find and install “Emmet” plugin
 
 
-# Sublime Text 3 - Useful Shortcuts (Windows)
+
+
+# Sublime Text 3 - Useful Keyboard Shortcuts (Windows)
 
 ## General
 
