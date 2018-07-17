@@ -99,9 +99,8 @@ Find and install “Emmet” plugin
 
 ## Quick way to code at Sublime Text
 
-```
-#HTML
-```
+
+#for HTML 
 
 #### Child: >
 
