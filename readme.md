@@ -97,6 +97,113 @@ Find and install “Emmet” plugin
 
 
 
+ShortCut 
+===============HTML===========
+ShortCut 1: !
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		
+	</body>
+	</html>
+
+ShortCut 2: .classname
+	<div class="classname"></div>
+			.any
+	<div class="any"></div>
+
+ShortCut 3: header.yourClassName
+	<header class="yourClassName"></header>
+
+ShortCut 4: .hasib>h2+img+.content>p
+	<div class="hasib">
+		<h2>Your Title Here</h2>
+		<img src="" alt="">
+		<div class="content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, animi, dolores quia perspiciatis voluptates aut harum. Veniam assumenda laudantium accusantium explicabo facilis molestias voluptatibus voluptate mollitia corporis, fuga, et quae.</p>
+		</div>
+	</div>
+
+
+
+ShortCut 5: .hasib>h2+img+.content>p+footer#bottom>h5
+	<div class="hasib">
+		<h2></h2>
+		<img src="" alt="">
+		<div class="content">
+			<p></p>
+			<footer id="bottom">
+				<h5></h5>
+			</footer>
+		</div>
+	</div>
+
+ShortCut 6:	ul>li*5
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+ShortCut 7:	ul>li*5>a
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+ShortCut 8:	ul>li*5>a[#]
+	<ul>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+	</ul>
+
+ShortCut 9:	ul>li*5>a[#]{Item$}
+	<ul>
+		<li><a href="#">Item1</a></li>
+		<li><a href="#">Item2</a></li>
+		<li><a href="#">Item3</a></li>
+		<li><a href="#">Item4</a></li>
+		<li><a href="#">Item5</a></li>
+	</ul>
+ShortCut 10: c
+	<!--  -->
+
+===============CSS===========
+ShortCut 11: p
+	padding: ;
+
+ShortCut 12: m
+	margin: ;
+
+ShortCut 13: fs
+	font-style: ;
+
+ShortCut 14: fsz
+	font-size: ;
+
+ShortCut 15: ctrl+/
+	/**/
+
+
+
+
+
+
+
+
+
 
 
 
