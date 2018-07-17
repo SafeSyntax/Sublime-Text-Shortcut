@@ -43,7 +43,7 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>N</kbd> | new tab |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> | new window |
 
-## Editin
+## Editing
 
 | Shortcut | Description |
 | ---------| ----------- |
