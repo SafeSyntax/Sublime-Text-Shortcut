@@ -295,11 +295,6 @@ p
 padding: ;
 ```
 
-p
-```
-padding: ;
-```
-
 p0
 ```
 padding: 0;
@@ -382,8 +377,10 @@ transition: ;
 
 
 
-#### credit
-[Safe Syntax](http://safesyntax.com)
+#### credit 
+[Safe Syntax](http://safesyntax.com)  
+[Safe Syntax - Youtube](https://www.youtube.com/safesyntax)  
+[G M Mostakim Billah Rasel - Youtube](https://www.youtube.com/gmmostakimbillah/)  
 [mrliptontea](https://gist.github.com/mrliptontea/4c793ebdf72ed145bcbf)
 
 
