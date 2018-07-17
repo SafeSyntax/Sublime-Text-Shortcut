@@ -295,6 +295,91 @@ p
 padding: ;
 ```
 
+p
+```
+padding: ;
+```
+
+p0
+```
+padding: 0;
+```
+
+m0+p0
+```
+margin: 0;
+padding: 0;
+```
+
+tac
+```
+text-align: center;
+```
+
+bgc
+```
+background-color: #fff;
+```
+
+bgc#fcf
+```
+background-color: #fcf;
+```
+
+ff
+```
+font-family: ;
+```
+
+ffa
+```
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+```
+
+@i
+```
+@import url();
+```
+
+@f+
+```
+@font-face {
+	font-family: 'FontName';
+	src: url('FileName.eot');
+	src: url('FileName.eot?#iefix') format('embedded-opentype'),
+		 url('FileName.woff') format('woff'),
+		 url('FileName.ttf') format('truetype'),
+		 url('FileName.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+```
+
+-transform
+```
+-webkit-transform: ;
+-ms-transform: ;
+-o-transform: ;
+transform: ;
+```
+
+-transition
+```
+-webkit-transition: ;
+-o-transition: ;
+transition: ;
+```
+
+-wmso-transition
+```
+-webkit-transition: ;
+-moz-transition: ;
+-ms-transition: ;
+-o-transition: ;
+transition: ;
+```
+
+
 
 
 #### credit
