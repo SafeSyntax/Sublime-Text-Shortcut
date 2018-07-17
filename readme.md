@@ -97,108 +97,191 @@ Find and install “Emmet” plugin
 
 
 
-ShortCut 
-===============HTML===========
-ShortCut 1: !
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Document</title>
-	</head>
-	<body>
-		
-	</body>
-	</html>
+## Quick way to code at Sublime Text
 
-ShortCut 2: .classname
-	<div class="classname"></div>
-			.any
-	<div class="any"></div>
+#### Child: >
 
-ShortCut 3: header.yourClassName
-	<header class="yourClassName"></header>
+div>ul>li
+```
+<div>
+    <ul>
+        <li></li>
+    </ul>
+</div>
+```
 
-ShortCut 4: .hasib>h2+img+.content>p
-	<div class="hasib">
-		<h2>Your Title Here</h2>
-		<img src="" alt="">
-		<div class="content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, animi, dolores quia perspiciatis voluptates aut harum. Veniam assumenda laudantium accusantium explicabo facilis molestias voluptatibus voluptate mollitia corporis, fuga, et quae.</p>
-		</div>
-	</div>
+#### Sibling: +
+
+div+p+bq
+
+<div></div>
+<p></p>
+<blockquote></blockquote>
+
+div+div>p>span+em 
+```
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+</div>
+```
 
 
+#### Climb-up: ^
 
-ShortCut 5: .hasib>h2+img+.content>p+footer#bottom>h5
-	<div class="hasib">
-		<h2></h2>
-		<img src="" alt="">
-		<div class="content">
-			<p></p>
-			<footer id="bottom">
-				<h5></h5>
-			</footer>
-		</div>
-	</div>
+With ^ operator, you can climb one level up the tree and change context where following elements should appear:
 
-ShortCut 6:	ul>li*5
-	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
+div+div>p>span+em^bq
+```
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+    <blockquote></blockquote>
+</div>
+```
 
-ShortCut 7:	ul>li*5>a
-	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
+You can use as many ^ operators as you like, each operator will move one level up:
 
-ShortCut 8:	ul>li*5>a[#]
-	<ul>
-		<li><a href="#"></a></li>
-		<li><a href="#"></a></li>
-		<li><a href="#"></a></li>
-		<li><a href="#"></a></li>
-		<li><a href="#"></a></li>
-	</ul>
+div+div>p>span+em^^^bq
+```
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+</div>
+<blockquote></blockquote>
+```
 
-ShortCut 9:	ul>li*5>a[#]{Item$}
-	<ul>
-		<li><a href="#">Item1</a></li>
-		<li><a href="#">Item2</a></li>
-		<li><a href="#">Item3</a></li>
-		<li><a href="#">Item4</a></li>
-		<li><a href="#">Item5</a></li>
-	</ul>
-ShortCut 10: c
-	<!--  -->
+#### Multiplication: *
 
-===============CSS===========
-ShortCut 11: p
-	padding: ;
+ul>li*5
+...outputs to
+```
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+```
 
-ShortCut 12: m
-	margin: ;
+#### Grouping: ()
 
-ShortCut 13: fs
-	font-style: ;
+div>(header>ul>li*2>a)+footer>p
+```
+<div>
+    <header>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+```
 
-ShortCut 14: fsz
-	font-size: ;
+(div>dl>(dt+dd)*3)+footer>p
+```
+<div>
+    <dl>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+</div>
+<footer>
+    <p></p>
+</footer>
+```
 
-ShortCut 15: ctrl+/
-	/**/
+#### ID and CLASS
 
+div#header+div.page+div#footer.class1.class2.class3
+```
+<div id="header"></div>
+<div class="page"></div>
+<div id="footer" class="class1 class2 class3"></div>
+```
+Custom attributes
 
+td[title="Hello world!" colspan=3]
+```
+<td title="Hello world!" colspan="3"></td>
+```
+Note:  
+You can use single or double quotes for quoting attribute values.
+You don’t need to quote values if they don’t contain spaces: td[title=hello colspan=3] will work.
 
+#### Item numbering: $
 
+ul>li.item$*5
+```
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
+```
+You can use multiple $ in a row to pad number with zeroes:
+
+ul>li.item$$$*5
+```
+<ul>
+    <li class="item001"></li>
+    <li class="item002"></li>
+    <li class="item003"></li>
+    <li class="item004"></li>
+    <li class="item005"></li>
+</ul>
+```
+Changing numbering base and direction
+With @ modifier, you can change numbering direction (ascending or descending) and base (e.g. start value).
+
+For example, to change direction, add @- after $:
+
+ul>li.item$@-*5
+```
+<ul>
+    <li class="item5"></li>
+    <li class="item4"></li>
+    <li class="item3"></li>
+    <li class="item2"></li>
+    <li class="item1"></li>
+</ul>
+```
+To change counter base value, add @N modifier to $:
+
+ul>li.item$@3*5
+…transforms to
+```
+<ul>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+    <li class="item6"></li>
+    <li class="item7"></li>
+</ul>
+```
+You can use these modifiers together:
+
+ul>li.item$@-3*5
+…is transformed to
+```
+<ul>
+    <li class="item7"></li>
+    <li class="item6"></li>
+    <li class="item5"></li>
+    <li class="item4"></li>
+    <li class="item3"></li>
+</ul>
+```
 
 
 
