@@ -1,3 +1,6 @@
+
+## Installation
+
 1.To install, copy the Python code for Sublime Text 3 found here. Click View > Show Console to open the ST3 console. Paste the code into the console. Press enter. Reboot ST3.
 
 2.You can now install packages by using the keyboard shortcut ctrl+shift+P or Click Preferences > Package Control. Start typing install until 
