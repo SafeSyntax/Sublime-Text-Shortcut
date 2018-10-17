@@ -68,8 +68,7 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>Y</kbd> | redo or repeat |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> | paste and ident |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
-| ## ** | 
-| ---------| ----------- |
+| ** | 
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> | Put the words, sentence, or line of codes that you want to change in the Find field. |
 
 
