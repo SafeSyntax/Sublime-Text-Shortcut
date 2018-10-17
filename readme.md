@@ -67,7 +67,7 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>X</kbd> | cut |
 | <kbd>Ctrl</kbd>+<kbd>Y</kbd> | redo or repeat |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> | paste and ident |
-
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
 
 
 
@@ -261,7 +261,8 @@ ul>li.item$@-*5
     <li class="item1"></li>
 </ul>
 ```
-To change counter base value, add @N modifier to $:
+
+
 
 ul>li.item$@3*5
 …transforms to
@@ -288,7 +289,7 @@ ul>li.item$@-3*5
 </ul>
 ```
 
-
+splits the selection into multiple selections
 
 # for CSS
 
