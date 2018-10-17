@@ -70,7 +70,7 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
 | ** | 
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> | Put the words, sentence, or line of codes that you want to change in the Find field. |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> | for “save all” -> Preferences -> Key Bindings -> Default. Paste this on a new line, right above the last closing square bracket: |
+| { "keys": ["ctrl+alt+shift+s"], "command": "save_all" }, | for “save all” -> Preferences -> Key Bindings -> Default. Paste this on a new line, right above the last closing square bracket: |
 
 
 ## Find / Replace
