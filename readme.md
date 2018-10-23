@@ -380,6 +380,23 @@ transition: ;
 ```
 
 
+# for Snippets 
+```
+<kbd>go to Tools</kbd> <kbd>Developers</kbd> <kbd>New Snippet</kbd> 
+
+Then
+
+<snippet>
+    <content><![CDATA[Type your snippet here]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>xyzzy</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>My Fancy Snippet</description>
+</snippet>
+
+```
 
 
 #### credit 
