@@ -68,7 +68,8 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>Y</kbd> | redo or repeat |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> | paste and ident |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
-| ** | 
+| ** Special | 
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>P<kbd>L</kbd> | Showing menu bar in sublime-text 3 |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> | Put the words, sentence, or line of codes that you want to change in the Find field. |
 | { "keys": ["ctrl+alt+shift+s"], "command": "save_all" }, | for “save all” -> Preferences -> Key Bindings -> Default. Paste this on a new line, right above the last closing square bracket: |
 
