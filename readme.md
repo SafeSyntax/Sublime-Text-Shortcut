@@ -382,7 +382,7 @@ transition: ;
 
 # for Snippets 
 
-<kbd>go to Tools</kbd> <kbd>Developers</kbd> <kbd>New Snippet</kbd> 
+<kbd>go to Tools > </kbd> <kbd>Developers > </kbd> <kbd>New Snippet > </kbd> 
 
 ```
 Then
