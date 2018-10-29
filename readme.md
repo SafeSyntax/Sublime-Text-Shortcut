@@ -66,13 +66,16 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> | paste and ident |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
 
-| ** Special | 
+| ** Special / Important | 
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>P<kbd>L</kbd> | Showing menu bar |
 | <kbd>Ctrl</kbd>+<kbd>K,</kbd>Ctrl<kbd>B</kbd> | Showing Sidebar |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> | Put the words, sentence, or line of codes that you want to change in the Find field. |
 | { "keys": ["ctrl+alt+shift+s"], "command": "save_all" }, | for “save all” -> Preferences -> Key Bindings -> Default. Paste this on a new line, right above the last closing square bracket: |
 
-
+<p>sdfjs</p>
+| <kbd>ctrl</kbd>+<kbd>A</kbd> | select all |
+| <kbd>Shift</kbd>+<kbd>Home</kbd> |  Add cursor to all line |
+| <kbd>Shift</kbd>+<kbd>Home</kbd> |  put cursor to first word in the line |
 
 ## Find / Replace
 
