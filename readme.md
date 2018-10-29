@@ -66,6 +66,10 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> | paste and ident |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
 
+
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
+
+
 | Special Important | 
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>P<kbd>L</kbd> | Showing menu bar |
 | <kbd>Ctrl</kbd>+<kbd>K,</kbd>Ctrl<kbd>B</kbd> | Showing Sidebar |
