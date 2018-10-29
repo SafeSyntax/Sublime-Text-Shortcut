@@ -67,18 +67,20 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
 
 
+
+
+
+## Special Important
+| Shortcut | Description |
+| ---------| ----------- |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
-
-
-| Special Important | 
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>P<kbd>L</kbd> | Showing menu bar |
-| <kbd>Ctrl</kbd>+<kbd>K,</kbd>Ctrl<kbd>B</kbd> | Showing Sidebar |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> | Put the words, sentence, or line of codes that you want to change in the Find field. |
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd><kbd>P</kbd><kbd>L</kbd> | Showing menu bar |
+| <kbd>Ctrl</kbd>+<kbd>K,</kbd><kbd>Ctrl</kbd><kbd>B</kbd> | Showing Sidebar |
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd><kbd>+</kbd><kbd>F</kbd> | Put the words, sentence, or line of codes that you want to change in the Find field. |
 | { "keys": ["ctrl+alt+shift+s"], "command": "save_all" }, | for “save all” -> Preferences -> Key Bindings -> Default. Paste this on a new line, right above the last closing square bracket: |
-
-| To make cursor in every front line or every end of line | | |
+| To make cursor in every front line or every end of line |  |
 | <kbd>ctrl</kbd>+<kbd>A</kbd> | select all |
-| <kbd>Shift</kbd>+<kbd>Home</kbd> |  Add cursor to all line |
+| <kbd>ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> |  Add cursor to all line |
 | <kbd>Shift</kbd>+<kbd>Home</kbd> |  put cursor to first word in the line |
 
 ## Find / Replace
