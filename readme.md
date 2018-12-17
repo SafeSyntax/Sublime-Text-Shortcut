@@ -83,6 +83,16 @@ Find and install “Emmet” plugin
 | <kbd>ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> |  Add cursor to all line |
 | <kbd>Shift</kbd>+<kbd>Home</kbd> |  put cursor to first word in the line |
 
+
+## Live Reload
+###### Note: At first install "Package Contro" (View >  Show Console > hit the code https://packagecontrol.io/installation)
+i. Preferences > Package Control > Package Control: Install Package > LiveReload ( Please be sure to restart Sublime Text to start using this new version. For more information or how to use this plugin visit https://github.com/alepez/LiveReload-sublimetext3)
+ii. Preferences > Package Settings > LiveReload > Plugins > Enable/disable Plugins (hit the enter) > Enable - Simple Reload
+iii. add LiveReload Chrome Extension in the Google Chrome and Right Click the extension that you add > Manage Extensions > Allow access to file URLs
+
+And now Ready for work.
+
+
 ## Find / Replace
 
 | Shortcut | Description |
