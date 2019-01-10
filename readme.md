@@ -90,15 +90,18 @@ i. Preferences > Package Control > Package Control: Install Package > LiveReload
 ii. Preferences > Package Settings > LiveReload > Plugins > Enable/disable Plugins (hit the enter) > Enable - Simple Reload  
 iii. add LiveReload Chrome Extension in the Google Chrome and Right Click the extension that you add > Manage Extensions > Allow access to file URLs  
 
-Important for Alaways Enale  
+Important for Always Enable
+-----------------------------
 Go Preferences > Package Settings > LiveReload > Setings - User  
+
+```
 { 
     "enabled_plugins": [ 
     	"SimpleReloadPlugin", 
     	"SimpleRefresh" 
     ] 
 }
-
+```
 
 And now Ready for work.
 
