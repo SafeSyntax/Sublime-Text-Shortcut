@@ -68,10 +68,10 @@ Find and install “Emmet” plugin
 
 
 ## Most Usefull Package
-i.PackeageControl (A full-featured package manager that helps discovering, installing, updating and removing packages for Sublime Text 2/3. It features an automatic upgrader and supports GitHub, BitBucket and a full channel/repository system.)
-ii.Using Emmet with Sublime Text. Emmet is an invaluable time-saving tool for anyone who writes HTML and CSS. ... One of the biggest problems with hand-authoring HTML is the monotony of writing the common markup that surrounds content itself.
-iii.Open Url
-iv. FuzzyFilePath (Fuzzy search and insert filenames inside your current project directory. Highly customizable.)
+i.PackeageControl (A full-featured package manager that helps discovering, installing, updating and removing packages for Sublime Text 2/3. It features an automatic upgrader and supports GitHub, BitBucket and a full channel/repository system.)  
+ii.Using Emmet with Sublime Text. Emmet is an invaluable time-saving tool for anyone who writes HTML and CSS. ... One of the biggest problems with hand-authoring HTML is the monotony of writing the common markup that surrounds content itself.  
+iii.Open Url   
+iv. FuzzyFilePath (Fuzzy search and insert filenames inside your current project directory. Highly customizable.)  
 
 
 ## Special Important
@@ -90,9 +90,9 @@ iv. FuzzyFilePath (Fuzzy search and insert filenames inside your current project
 
 ## Live Reload
 ###### Note: At first install "Package Contro" (View >  Show Console > hit the code https://packagecontrol.io/installation)  
-i. Preferences > Package Control > Package Control: Install Package > LiveReload ( Please be sure to restart Sublime Text to start using this new version. For more information or how to use this plugin visit https://github.com/alepez/LiveReload-sublimetext3)  
-ii. Preferences > Package Settings > LiveReload > Plugins > Enable/disable Plugins (hit the enter) > Enable - Simple Reload  
-iii. add LiveReload Chrome Extension in the Google Chrome and Right Click the extension that you add > Manage Extensions > Allow access to file URLs  
+i. Preferences > Package Control > Package Control: Install Package > LiveReload ( Please be sure to restart Sublime Text to start using this new version. For more information or how to use this plugin visit https://github.com/alepez/LiveReload-sublimetext3)    
+ii. Preferences > Package Settings > LiveReload > Plugins > Enable/disable Plugins (hit the enter) > Enable - Simple Reload    
+iii. add LiveReload Chrome Extension in the Google Chrome and Right Click the extension that you add > Manage Extensions > Allow access to file URLs   
 
 Important for Always Enable
 -----------------------------
