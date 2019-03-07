@@ -67,7 +67,11 @@ Find and install “Emmet” plugin
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> | splits the selection into multiple selections |
 
 
-
+## Most Usefull Package
+i.PackeageControl (A full-featured package manager that helps discovering, installing, updating and removing packages for Sublime Text 2/3. It features an automatic upgrader and supports GitHub, BitBucket and a full channel/repository system.)
+ii.Using Emmet with Sublime Text. Emmet is an invaluable time-saving tool for anyone who writes HTML and CSS. ... One of the biggest problems with hand-authoring HTML is the monotony of writing the common markup that surrounds content itself.
+iii.Open Url
+iv. FuzzyFilePath (Fuzzy search and insert filenames inside your current project directory. Highly customizable.)
 
 
 ## Special Important
