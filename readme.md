@@ -86,6 +86,7 @@ iv. FuzzyFilePath (Fuzzy search and insert filenames inside your current project
 | <kbd>ctrl</kbd>+<kbd>A</kbd> | select all |
 | <kbd>ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> |  Add cursor to all line |
 | <kbd>Shift</kbd>+<kbd>Home</kbd> |  put cursor to first word in the line |
+| Spell Checking | Preferences -> Settings ->   "spell_check": true, "dictionary": "Packages/Language - English/en_US.dic" |
 
 
 ## Live Reload
