@@ -73,8 +73,8 @@ ii.Using Emmet with Sublime Text. Emmet is an invaluable time-saving tool for an
 iii.Open Url   
 iv. FuzzyFilePath (Fuzzy search and insert filenames inside your current project directory. Highly customizable.)  
 
-# Most Usefull Plugins (Preferences > Package Control > Install Package (NOW SEARCH Your Plugin)
-### 1. AutoFileName (Auto Completes file Name) 
+## **Most Useful Plugins _(Preferences > Package Control > Install Package (NOW SEARCH Your Plugin)_**
+**1. AutoFileName (Auto Completes fileName / Path)**
 
 
 ## Special Important
